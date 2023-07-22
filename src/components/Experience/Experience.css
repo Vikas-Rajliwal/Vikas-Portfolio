@@ -1,0 +1,9 @@
+#Experience{
+    display: flex;
+    justify-content: center;
+    /* height: 100vh; */
+    margin-top: 20px;
+}
+.container-experience{
+    padding: 20px 40px;
+}

@@ -1,0 +1,41 @@
+#skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.skill-col{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+.skill-col>h1{
+    font-size: 55px;
+    font-weight: 700; 
+}
+.container-skill{
+    padding: 20px 40px;
+    background-color: #1D1845;
+    border-radius: 10px;
+}
+.skill-col>p{
+    font-size: 20px;
+    font-weight: 200;
+    color: #ababab;
+}
+.skill-slider{
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+}
+.react-multi-carousel-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill-item{
+text-align: center;
+}

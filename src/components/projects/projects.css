@@ -1,0 +1,42 @@
+#projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.project-col{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+.project-col>h1{
+    font-size: 55px;
+    font-weight: 700; 
+}
+.container-projects{
+    padding: 20px 40px;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+    color: #fff!important;
+  transition: 0.3s;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{
+    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    color: #fff!important;
+}
+
+@media  screen and (min-width: 800px){
+    .css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+        width: 200px;
+    }
+   
+}
+.project-border{
+    background-color: #1D1845;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 20px;
+}

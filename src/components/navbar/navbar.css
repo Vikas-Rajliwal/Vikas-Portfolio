@@ -1,0 +1,121 @@
+.my-name{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 42px;
+    color: #fff;
+    transition: 0.5s;
+}
+.my-name:hover{
+    scale: 1.2;
+    color: white;
+}
+
+.navbar{
+    /* background-color: #121212; */
+    color: #fff!important;
+    z-index: 2;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(8px);
+}
+.nav-link{
+    color: #fff!important;
+    width: 100px;
+    border-radius: 10px
+}
+.nav-link:hover{
+    color: black!important;
+    background-color: #fff;
+    border-radius: 10px
+}
+.active{
+    color: black!important;
+    background-color: #fff;
+    border-radius: 10px
+}
+.navbar-nav{
+    text-align: center;
+    flex: 1;
+    justify-content: center;
+    gap: 20px;
+    font-size: 19px;
+    font-style: oblique;
+    align-items: center;
+    font-weight: bold;
+}
+.navbar-text{
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    align-items: center;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.btn-connect {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    /* background: #111; */
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    border: 1px solid white ;
+}
+
+.btn-connect:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.btn-connect:active {
+    /* color: #000 */
+}
+
+.btn-connect:active:after {
+    background: transparent;
+}
+
+.btn-connect:hover:before {
+    opacity: 1;
+}
+
+.btn-connect:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 44);
+
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+.icon:hover{
+    scale: 1.1;
+}
