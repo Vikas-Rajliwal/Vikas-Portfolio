@@ -19,17 +19,17 @@
 .container-projects{
     padding: 20px 40px;
 }
-.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+.MuiButtonBase-root{
     color: #fff!important;
   transition: 0.3s;
 }
-.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{
+.Mui-selected{
     background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
     color: #fff!important;
 }
 
 @media  screen and (min-width: 800px){
-    .css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+    .MuiButtonBase-root{
         width: 200px;
     }
    
