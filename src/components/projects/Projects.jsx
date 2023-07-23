@@ -53,7 +53,7 @@ function Projects() {
 
     const handleChange = (event, newValue) => {
         setValue(newValue);
-    };
+    };  
     return (
         <section id="projects">
             <div className="container">
@@ -63,7 +63,7 @@ function Projects() {
                             <h1>PROJECTS</h1>
                             <Box sx={{ width: '100%' }}>
                                 <Box sx={{ borderBottom: 1, borderColor: 'divider', display: "flex", justifyContent: "center", alignItems: "center" }}>
-                                    <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" sx={{ bgcolor: " rgb(255 255 255 / 10%)", display: "flex", justifyContent: "center", borderRadius: "20px" }}>
+                                    <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" style={{ bgcolor: " rgb(255 255 255 / 10%)", display: "flex", justifyContent: "center", borderRadius: "20px" }}>
                                         <Tab label="Item One" {...a11yProps(0)} />
                                         <Tab label="Item Two" {...a11yProps(1)} disabled={true} />
                                         <Tab label="Item Three" {...a11yProps(2)} disabled={true} />
@@ -75,7 +75,7 @@ function Projects() {
                                             {data.map((item,index) => {
                                                 return (
                                                     <div className="col-lg-3" key={index}>
-                                                        <ProjectCard img={item.img} desc={item.desc} title={item.title} />
+                                                        <ProjectCard img={item.img} desc={item.desc} title={item.title} link={item.link} />
                                                     </div>
                                                 )
                                             })} 

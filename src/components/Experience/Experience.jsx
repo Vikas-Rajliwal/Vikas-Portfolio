@@ -1,6 +1,5 @@
 import React from "react";
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
-import { motion, spring } from 'framer-motion';
 import 'react-vertical-timeline-component/style.min.css';
 import "./Experience.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

@@ -1,6 +1,5 @@
 import React from "react";
 import "./home.css"
-import header from "../../assets/imges/header.svg"
 import gi from "../../assets/imges/img.gif"
 // portfolio\my-portfolio\src\assets\imges\lf30_WdTEui (1).gif
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
