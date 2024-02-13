@@ -52,15 +52,15 @@ function Skills() {
                                         />
                                     </div>
                                     <div className="skill-item">
-                                    <h1>React</h1>
+                                    <h1>ReactJs </h1>
                                         <GaugeChart id="gauge-chart1"
-                                        percent={0.60}
+                                        percent={0.85}
 
                                         />
                                     </div><div className="skill-item">
                                     <h1>Bootstrap</h1>
                                         <GaugeChart id="gauge-chart1"
-                                        percent={0.65}
+                                        percent={0.70}
                                         />
                                     </div>
                                     <div className="skill-item">
@@ -78,6 +78,18 @@ function Skills() {
                                     <h1>MongoDb</h1>
                                         <GaugeChart id="gauge-chart1"
                                         percent={0.70}
+                                        />
+                                    </div>
+                                    <div className="skill-item">
+                                    <h1>Firebase</h1>
+                                        <GaugeChart id="gauge-chart1"
+                                        percent={0.60}
+                                        />
+                                    </div>
+                                    <div className="skill-item">
+                                    <h1>Tailwind</h1>
+                                        <GaugeChart id="gauge-chart1"
+                                        percent={0.80}
                                         />
                                     </div>
                                 </Carousel>
