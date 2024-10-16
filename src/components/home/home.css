@@ -11,6 +11,7 @@
     width: 100%;
     animation: up-down 2s ease-in-out infinite;
     position: relative;
+    border-radius: 50%;
 
 }
 @keyframes up-down {
@@ -38,10 +39,10 @@
         color: #fff;
     }
     20%,40%{
-        color: #f5ed00;
+        color: #636e72;
     }
     60%,80%{
-        color: #f57200;
+        color: #1D1845;
     }
 }
 .home-text{
@@ -55,9 +56,10 @@
     flex-direction: column;
     gap:40px;
     padding:20px;
+
 }
 .scroller {
-    color: #F17305;
+    color: #636e72;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -102,3 +104,5 @@
   .home-btn:hover{
     color: #fff;
   }
+
+ 

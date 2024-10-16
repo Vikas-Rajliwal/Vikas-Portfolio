@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {  faFacebook, faGithub, faLinkedin , } from '@fortawesome/free-brands-svg-icons';
+import {   faGithub, faInstagram, faLinkedin , } from '@fortawesome/free-brands-svg-icons';
 import './navbar.css'
 
 
@@ -35,7 +35,7 @@ function NavBar() {
   return (
     <Navbar  expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
-        <Navbar.Brand href="#home" className='my-name'><h1>Tushar-Bhatia</h1></Navbar.Brand>
+        <Navbar.Brand href="#home" className='my-name'><h1>Vikas-Rajliwal</h1></Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav custom-toggler" >
             <ToggleIcon/>
@@ -48,11 +48,11 @@ function NavBar() {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a  className='icon' href="#"><FontAwesomeIcon icon={faFacebook} size={"2x"} style={{color:"white"}}/></a>
-                <a className='icon' href="https://github.com/Tushar106"><FontAwesomeIcon icon={faGithub}size={"2x"} style={{color:"white"}}/></a>
-                <a className='icon' href="https://www.linkedin.com/in/tushar-bhatia-236111228/"><FontAwesomeIcon icon={faLinkedin} size={"2x"}style={{color:"white"}}/></a>
+                <a  className='icon' href="https://www.instagram.com/vikas_rajliwal_/profilecard/?igsh=NWEyemIxc2dnb2gx"><FontAwesomeIcon icon={faInstagram} size={"2x"} style={{color:"white"}}/></a>
+                <a className='icon' href="https://github.com/Vikas-Rajliwal"><FontAwesomeIcon icon={faGithub}size={"2x"} style={{color:"white"}}/></a>
+                <a className='icon' href="https://www.linkedin.com/in/vikas-rajliwal-42b668274/"><FontAwesomeIcon icon={faLinkedin} size={"2x"}style={{color:"white"}}/></a>
               </div>
-              <a href="https://www.linkedin.com/in/tushar-bhatia-236111228/"><button className='btn-connect'>Let's Connect</button></a>
+              <a href="https://www.linkedin.com/in/vikas-rajliwal-42b668274/"><button className='btn-connect'>Let's Connect</button></a>
               </span>
         </Navbar.Collapse>
       </Container>

@@ -6,20 +6,24 @@
 }
 
 .container-contact {
+    color: beige;
     padding: 26px 40px;
 }
 
 .container-contact>.row>.col-lg-6>form {
+    color: beige;
     width: 80%;
 }
 
 .container-contact>.row {
-    background-color: #1D1845;
+    background-color: #1d1845;
+    
     padding: 20px;
 }
 
 .container-contact>.row>.col-lg-6>form>input {
-    background-color: #1D1869;
+    background-color: #f6f6f9d8;
+    
     padding: 10px;
     width: 100%;
     margin-bottom: 10px;
@@ -29,7 +33,7 @@
 }
 
 .container-contact>.row>.col-lg-6>form>textarea {
-    background-color: #1D1869;
+    background-color: #e6e5edda;
     padding: 10px;
     width: 100%;
     margin-bottom: 10px;

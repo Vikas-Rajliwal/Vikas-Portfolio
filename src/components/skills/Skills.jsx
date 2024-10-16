@@ -34,6 +34,50 @@ function Skills() {
                             <p>I am happy to share that I have learnt a lot of skills both in technical and soft skills</p>
                             <div className="skill-slider">
                                 <Carousel responsive={responsive} infinite={true}>
+                                    
+                                  <div className="skill-item">
+                                    <h1>Javascript</h1>
+                                        <GaugeChart id="gauge-chart1"
+                                        percent={0.70}
+                                        />
+                                    </div>
+                                    
+                                    <div className="skill-item">
+                                    <h1>Bootstrap</h1>
+                                        <GaugeChart id="gauge-chart1"
+                                        percent={0.70}
+                                        />
+                                    </div>
+                                    <div className="skill-item">
+                                    <h1>React.js</h1>
+                                        <GaugeChart id="gauge-chart1"
+                                        percent={0.65}
+                                        />
+                                    </div>
+                                    <div className="skill-item">
+                                    <h1>Django</h1>
+                                        <GaugeChart id="gauge-chart1"
+                                        percent={0.65}
+                                        />
+                                    </div>
+                                    {/* <div className="skill-item">
+                                    <h1>MongoDb</h1>
+                                        <GaugeChart id="gauge-chart1"
+                                        percent={0.70}
+                                        />
+                                    </div> */}
+                                    {/* <div className="skill-item"> */}
+                                    {/* <h1>Firebase</h1>
+                                        <GaugeChart id="gauge-chart1"
+                                        percent={0.60}
+                                        />
+                                    </div> */}
+                                    <div className="skill-item">
+                                    <h1>MongoDB</h1>
+                                        <GaugeChart id="gauge-chart1"
+                                        percent={0.80}
+                                        />
+                                    </div>
                                     <div className="skill-item">
                                     <h1>HTML</h1>
                                     <GaugeChart id="gauge-chart1"
@@ -44,52 +88,6 @@ function Skills() {
                                     <h1>CSS</h1>
                                         <GaugeChart id="gauge-chart1"
                                         percent={0.70}
-                                        />
-                                    </div><div className="skill-item">
-                                    <h1>Javascript</h1>
-                                        <GaugeChart id="gauge-chart1"
-                                        percent={0.70}
-                                        />
-                                    </div>
-                                    <div className="skill-item">
-                                    <h1>ReactJs </h1>
-                                        <GaugeChart id="gauge-chart1"
-                                        percent={0.85}
-
-                                        />
-                                    </div><div className="skill-item">
-                                    <h1>Bootstrap</h1>
-                                        <GaugeChart id="gauge-chart1"
-                                        percent={0.70}
-                                        />
-                                    </div>
-                                    <div className="skill-item">
-                                    <h1>Node.js</h1>
-                                        <GaugeChart id="gauge-chart1"
-                                        percent={0.65}
-                                        />
-                                    </div><div className="skill-item">
-                                    <h1>EJS</h1>
-                                        <GaugeChart id="gauge-chart1"
-                                        percent={0.65}
-                                        />
-                                    </div>
-                                    <div className="skill-item">
-                                    <h1>MongoDb</h1>
-                                        <GaugeChart id="gauge-chart1"
-                                        percent={0.70}
-                                        />
-                                    </div>
-                                    <div className="skill-item">
-                                    <h1>Firebase</h1>
-                                        <GaugeChart id="gauge-chart1"
-                                        percent={0.60}
-                                        />
-                                    </div>
-                                    <div className="skill-item">
-                                    <h1>Tailwind</h1>
-                                        <GaugeChart id="gauge-chart1"
-                                        percent={0.80}
                                         />
                                     </div>
                                 </Carousel>

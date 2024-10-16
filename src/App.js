@@ -9,7 +9,7 @@ import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
-import Experience from './components/Experience/Experience';
+// import Experience from './components/Experience/Experience';
 import About from './components/about/About';
 import Contact from './components/contacts/Contact';
 import Footer from './components/footer/Footer';
@@ -20,7 +20,7 @@ function App() {
      <Home/>
      <About/>
      <Skills/>
-     <Experience/>
+     {/* <Experience/> */}
      <Projects/>
      <Contact/>
      <Footer/>

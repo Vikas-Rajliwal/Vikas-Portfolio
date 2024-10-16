@@ -2,21 +2,24 @@
     font-family: 'Dancing Script', cursive;
     font-weight: bold;
     font-size: 42px;
-    color: #fff;
+    color: #636e72;
     transition: 0.5s;
 }
 .my-name:hover{
     scale: 1.2;
-    color: white;
+    color: #2c3e50;
 }
 
 .navbar{
-    /* background-color: #121212; */
-    color: #fff!important;
+    background-color: #121212;
+    /* color: #2c3e50!important; */
+    opacity: 0.9;
     z-index: 2;
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
     backdrop-filter: blur(8px);
+    color: #636e72;
 }
 .nav-link{
     color: #fff!important;

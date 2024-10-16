@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css"
-import gi from "../../assets/imges/img.gif"
+import photo from "../../assets/imges/photo1.jpg"
 // portfolio\my-portfolio\src\assets\imges\lf30_WdTEui (1).gif
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faCircleArrowRight} from "@fortawesome/free-solid-svg-icons"
@@ -24,10 +24,10 @@ function Home() {
                                     </span>
                                 </div></h1>
                             </div>
-                            <a href="https://www.linkedin.com/in/tushar-bhatia-236111228/"><button className="home-btn">Lets Connect <FontAwesomeIcon icon={faCircleArrowRight} /></button></a>
+                            <a href="https://www.linkedin.com/in/vikas-rajliwal-42b668274/"><button className="home-btn">Lets Connect <FontAwesomeIcon icon={faCircleArrowRight} /></button></a>
                         </div>
-                        <div className="col-lg-6">
-                            <img src={gi} alt="" className="header-img" />
+                        <div className="col-lg-6 ">
+                            <img src={photo} alt="" className="header-img" />
                         </div>
                     </div>
                 </div>

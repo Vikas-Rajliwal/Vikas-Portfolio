@@ -30,7 +30,7 @@ function Contact() {
                             <p className="mb-0">Get in touch</p>
                             <h1 className="">Contact.</h1>
                             <div className="card">
-                                <div className="mapouter"><div className="gmap_canvas"><iframe title="Location" className="gmap_iframe" width="100%" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" src="https://maps.google.com/maps?width=610&amp;height=400&amp;hl=en&amp;q=Gandhi Nagar sigra Var&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div></div>
+                            <iframe title="Location" className="gmap_iframe" width="100%" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" src="https://maps.google.com/maps?width=610&amp;height=400&amp;hl=en&amp;q=Deenbandhu%20Chhotu%20Ram%20University%20Of%20Science%20And%20Technology%2C%20Murthal%20(Haryana)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
                             </div>
 
                         </div>
@@ -39,11 +39,11 @@ function Contact() {
                                 className='mt-12 d-flex flex-column gap-2'
                             >
                                 <label htmlFor="name" className="mb-2">Your Name</label>
-                                <input type="text" name="name" placeholder="What's Your Good Name" onChange={handleChange}></input>
+                                <input type="text" name="name"  onChange={handleChange}></input>
                                 <label htmlFor="email" className="mb-2">Your Email</label>
-                                <input type="email" name="email" placeholder="What's Your Email" onChange={handleChange}></input>
+                                <input type="email" name="email"  onChange={handleChange}></input>
                                 <label htmlFor="message" className="mb-2">Message</label>
-                                <textarea rows="4" cols="50" name="message" placeholder="Type Your Message here!" onChange={handleChange}></textarea>
+                                <textarea rows="4" cols="50" name="message"  onChange={handleChange}></textarea>
                             </form>
                         </div>
                     </div>

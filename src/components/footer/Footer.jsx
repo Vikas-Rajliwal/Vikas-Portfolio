@@ -4,7 +4,7 @@ function Footer(){
     return (
         <section id="footer">
             <div className="container p-4">
-                <p>@Made By Tushar Bhatia</p>
+                <p>@Made By Vikas Rajliwal</p>
             </div>
         </section>
     )
